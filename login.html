@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<!-- action: ruta del servidor a la cual se envian los datos -->
+		<!-- method: método HTTP por el cual se envian los datos -->
+		<!-- GET: método HTTP para traer datos del servidor -->
+		<!-- POST: método HTTP para enviar datos al servidor -->
+		<!-- los atributos name son los que viajan junto con el valor ingresado en el formulario. usuarioName: brittney -->
+
+		<!-- lista de input types -->
+		<!-- https://www.w3schools.com/tags/att_input_type.asp -->
+
+		<form action="/login" method="POST">
+			<label for="usernameInput">Usuario</label>
+			<input id="usernameInput" type="text" name="usuarioName" value="" />
+			<label for="passwordInput">Contraseña</label>
+			<input id="passwordInput" type="password" name="contrasenaName" />
+
+			<label for="rememberMeInput">Recordar contraseña</label>
+			<input id="rememberMeInput" type="checkbox" name="rememberMeName" />
+
+			<input type="submit" value="Ingresar" />
+		</form>
+	</body>
+</html>

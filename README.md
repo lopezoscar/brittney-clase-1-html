@@ -27,3 +27,17 @@ Otra con los pasos
 una breve descripción del plato
 un imagen del plato finalizado
 
+Tarea Formularios
+
+Crear un formulario de registro con los siguientes datos.
+
+Nombre
+Apellido
+email
+usuario
+Fecha de nacimiento
+dni
+color favorito
+foto de perfil
+Género
+País

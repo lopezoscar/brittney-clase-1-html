@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<!-- action: ruta del servidor a la cual se envian los datos -->
+		<!-- method: método HTTP por el cual se envian los datos -->
+		<!-- GET: método HTTP para traer datos del servidor -->
+		<!-- POST: método HTTP para enviar datos al servidor -->
+		<!-- los atributos name son los que viajan junto con el valor ingresado en el formulario. usuarioName: brittney -->
+		<form action="/login" method="POST">
+			<label for="colourInput">Selcciona Color</label>
+			<select id="colourInput" name="selectedColourName">
+				<option value="red">Rojo</option>
+				<option value="green">Verde</option>
+				<option value="blue">Azul</option>
+			</select>
+
+			<label for='dayInput'>
+				Día
+				<input id='dayInput' type="radio" value="day" name="time" />	
+			</label>
+			<label for='nightInput'>
+				Noche
+				<input id='nightInput' type="radio" value="day" name="time" />	
+			</label>
+
+			<label for="gendeInput">Género</label>
+			<select id="genderInput" name="gender">
+				<option value="male">Masculino</option>
+				<option value="female">Femenino</option>
+				<option value="other">Otro</option>
+			</select>
+
+			<label for='enfermedadesInput'>
+				Enfermedades
+			</label>
+			<select name="enfermedades" multiple="multiple">
+				<option value="01V">Viruela</option>
+				<option value="01S">Sarampión</option>
+				<option value="01P">Paperas</option>
+				<option value="02P">Parásitos</option>
+				<option value="02P">Parásitos</option>
+				<option value="02P">Parásitos</option>
+				<option value="02P">Parásitos</option>
+				<option value="02P">Parásitos</option>
+				<option value="02P">Parásitos</option>
+				<option value="02P">Parásitos</option>
+			</select>
+			
+
+			<label id="bioInput">
+				Bio
+				<textarea id="bioInput" cols="10" rows="2" name="textoGrande"></textarea>
+			</label>
+			
+
+			<input type="submit" value="Ingresar" />
+		</form>
+	</body>
+</html>
